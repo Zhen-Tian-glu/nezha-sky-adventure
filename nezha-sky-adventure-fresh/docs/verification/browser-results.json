@@ -1,0 +1,82 @@
+[
+  {
+    "viewport": {
+      "width": 750,
+      "height": 1334
+    },
+    "state": {
+      "canvas": {
+        "width": 750,
+        "height": 1334
+      },
+      "scene": "game",
+      "labels": [
+        {
+          "text": "哪吒今天不闹海\n\n工程基线\n750 × 1334",
+          "width": 294
+        }
+      ],
+      "design": {
+        "width": 750,
+        "height": 1334
+      },
+      "visible": {
+        "width": 750,
+        "height": 1334
+      }
+    },
+    "errors": [],
+    "warnings": [
+      "Failed to load resource: the server responded with a status of 404 (File not found) (favicon.ico only)"
+    ],
+    "logs": [
+      "Init Project: 10.608154296875 ms",
+      "LoadScene db://assets/scenes/game.scene: 5.157958984375 ms",
+      "InitScene: 0.166015625 ms",
+      "AttachPersist: 0.06396484375 ms",
+      "AutoRelease: 0.0849609375 ms",
+      "Destroy: 0.320068359375 ms",
+      "Activate: 4.698974609375 ms",
+      "Success to load scene: db://assets/scenes/game.scene"
+    ]
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": {
+      "canvas": {
+        "width": 390,
+        "height": 844
+      },
+      "scene": "game",
+      "labels": [
+        {
+          "text": "哪吒今天不闹海\n\n工程基线\n750 × 1334",
+          "width": 294
+        }
+      ],
+      "design": {
+        "width": 750,
+        "height": 1334
+      },
+      "visible": {
+        "width": 750,
+        "height": 1623.076923076923
+      }
+    },
+    "errors": [],
+    "warnings": [],
+    "logs": [
+      "Init Project: 10.4228515625 ms",
+      "LoadScene db://assets/scenes/game.scene: 5.281005859375 ms",
+      "InitScene: 0.13916015625 ms",
+      "AttachPersist: 0.09912109375 ms",
+      "AutoRelease: 0.074951171875 ms",
+      "Destroy: 0.281005859375 ms",
+      "Activate: 4.28515625 ms",
+      "Success to load scene: db://assets/scenes/game.scene"
+    ]
+  }
+]

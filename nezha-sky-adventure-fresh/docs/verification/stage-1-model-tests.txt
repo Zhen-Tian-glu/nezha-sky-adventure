@@ -1,0 +1,18 @@
+✔ hold rises, release applies gravity and reverses movement (1.3474ms)
+✔ rise and fall speed are capped (0.8812ms)
+✔ ceiling contact ends the run and freezes obstacles (0.3039ms)
+✔ floor contact ends the run (0.2702ms)
+✔ both upper and lower obstacle bodies collide (0.1059ms)
+✔ center of a gate remains open (0.0679ms)
+✔ restart resets every run field and obstacle placement (0.3107ms)
+✔ pause clears held input; elapsed time and geometry do not advance; resume needs a new press (0.1361ms)
+✔ invalid time values cannot corrupt the simulation (0.1436ms)
+✔ basic fixed sequence can be flown repeatedly and recycled without a forced collision (3.1113ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 79.1577

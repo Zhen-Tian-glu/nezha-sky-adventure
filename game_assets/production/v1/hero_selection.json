@@ -1,0 +1,7 @@
+{
+  "source": "nezha_motion_atlas.png",
+  "cropPadding": 1,
+  "displaySize": 132,
+  "anchor": [0.56, 0.44],
+  "reason": "用户于 2026-11-01 指定采用原圆脸红金哪吒形象；直接使用透明原图，不导入截图中的棋盘格和水印。"
+}

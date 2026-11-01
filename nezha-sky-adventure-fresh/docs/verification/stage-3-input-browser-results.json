@@ -1,0 +1,188 @@
+{
+  "mode": "tap",
+  "checks": [
+    {
+      "name": "start button does not flap; Ready freezes until first playfield tap",
+      "result": "passed"
+    },
+    {
+      "name": "one press is one impulse; hold and release do not repeat; a fresh tap restores upward speed",
+      "result": "passed",
+      "up": {
+        "state": "playing",
+        "y": 36.666666666666664,
+        "v": 200,
+        "flaps": 1,
+        "time": 0.13333333333333333,
+        "failure": null,
+        "angle": 11.645473354242203,
+        "gates": [
+          {
+            "slotId": 0,
+            "generation": 1,
+            "x": 467.33333333333303,
+            "centerY": 16.346522024832666,
+            "gapHeight": 384,
+            "width": 106,
+            "lowerWidth": 80,
+            "upperWidth": 106,
+            "lower": "waterball",
+            "upper": "seaMonster",
+            "scored": false,
+            "difficultyLevel": 0
+          },
+          {
+            "slotId": 1,
+            "generation": 2,
+            "x": 967.3333333333339,
+            "centerY": 10.275012427009642,
+            "gapHeight": 382,
+            "width": 106,
+            "lowerWidth": 76,
+            "upperWidth": 106,
+            "lower": "pillar",
+            "upper": "seaMonster",
+            "scored": false,
+            "difficultyLevel": 0
+          },
+          {
+            "slotId": 2,
+            "generation": 3,
+            "x": 1467.3333333333321,
+            "centerY": -20.275260536000133,
+            "gapHeight": 386,
+            "width": 84,
+            "lowerWidth": 84,
+            "upperWidth": 84,
+            "lower": "mountain",
+            "upper": "seaMonster",
+            "scored": false,
+            "difficultyLevel": 0
+          },
+          {
+            "slotId": 3,
+            "generation": 4,
+            "x": 1967.3333333333321,
+            "centerY": -62.38163829781115,
+            "gapHeight": 384,
+            "width": 76,
+            "lowerWidth": 76,
+            "upperWidth": 76,
+            "lower": "pillar",
+            "upper": "seaMonster",
+            "scored": false,
+            "difficultyLevel": 0
+          }
+        ]
+      },
+      "held": {
+        "state": "playing",
+        "y": -81.33333333333333,
+        "v": -440,
+        "flaps": 1,
+        "time": 0.783333333333333,
+        "failure": null,
+        "angle": -25.36395167744449,
+        "gates": [
+          {
+            "slotId": 0,
+            "generation": 1,
+            "x": 356.83333333333155,
+            "centerY": 16.346522024832666,
+            "gapHeight": 384,
+            "width": 106,
+            "lowerWidth": 80,
+            "upperWidth": 106,
+            "lower": "waterball",
+            "upper": "seaMonster",
+            "scored": false,
+            "difficultyLevel": 0
+          },
+          {
+            "slotId": 1,
+            "generation": 2,
+            "x": 856.8333333333369,
+            "centerY": 10.275012427009642,
+            "gapHeight": 382,
+            "width": 106,
+            "lowerWidth": 76,
+            "upperWidth": 106,
+            "lower": "pillar",
+            "upper": "seaMonster",
+            "scored": false,
+            "difficultyLevel": 0
+          },
+          {
+            "slotId": 2,
+            "generation": 3,
+            "x": 1356.8333333333262,
+            "centerY": -20.275260536000133,
+            "gapHeight": 386,
+            "width": 84,
+            "lowerWidth": 84,
+            "upperWidth": 84,
+            "lower": "mountain",
+            "upper": "seaMonster",
+            "scored": false,
+            "difficultyLevel": 0
+          },
+          {
+            "slotId": 3,
+            "generation": 4,
+            "x": 1856.8333333333262,
+            "centerY": -62.38163829781115,
+            "gapHeight": 384,
+            "width": 76,
+            "lowerWidth": 76,
+            "upperWidth": 76,
+            "lower": "pillar",
+            "upper": "seaMonster",
+            "scored": false,
+            "difficultyLevel": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "no tapping leads to floor collision; death freezes geometry and velocity",
+      "result": "passed"
+    },
+    {
+      "name": "restart resets run data and waits for a fresh playfield tap",
+      "result": "passed"
+    },
+    {
+      "name": "header/UI region does not trigger flight",
+      "result": "passed"
+    },
+    {
+      "name": "keyboard repeats ignored; pause/continue buttons do not flap or replay held key",
+      "result": "passed"
+    },
+    {
+      "name": "engine hide/show clears pending input and requires explicit resume without an impulse",
+      "result": "passed"
+    },
+    {
+      "name": "repeated discrete taps can reach the ceiling and end the run",
+      "result": "passed"
+    },
+    {
+      "name": "tap-controlled flight reaches a rendered gate and collides with its upper body",
+      "result": "passed"
+    },
+    {
+      "name": "390x844 touch: primary finger only, no synthetic mouse duplication, cancel/release never flap, fresh press works",
+      "result": "passed"
+    },
+    {
+      "name": "visible tutorial and status copy use tapping rather than holding",
+      "result": "passed"
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "favicon.ico 404",
+    "Ignored attempt to cancel a touchcancel event with cancelable=false, for example because scrolling is in progress and cannot be interrupted."
+  ]
+}

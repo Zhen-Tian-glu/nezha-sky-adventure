@@ -1,0 +1,30 @@
+{
+  "version": "0.6.2",
+  "checks": [
+    {
+      "name": "sky: actual background pixels and two parallax layers move while Ready physics stays frozen",
+      "result": "passed"
+    },
+    {
+      "name": "dragon: actual background pixels and two parallax layers move while Ready physics stays frozen",
+      "result": "passed"
+    },
+    {
+      "name": "all five dynamic artwork sprites visibly transform or flash; rendered poses exactly match the collision pose function",
+      "result": "passed"
+    },
+    {
+      "name": "pause freezes scenery, actual obstacle poses, character and scoring together",
+      "result": "passed"
+    },
+    {
+      "name": "continue resumes motion without replaying clicks or jumping scenery time",
+      "result": "passed"
+    },
+    {
+      "name": "after the short hit feedback, death leaves background, moving hazards and score frozen",
+      "result": "passed"
+    }
+  ],
+  "errors": []
+}

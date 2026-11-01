@@ -1,0 +1,38 @@
+✔ Ready waits indefinitely; neither gravity nor obstacles start automatically (2.388ms)
+✔ first click starts the run and produces exactly one impulse (0.3867ms)
+✔ one click is followed by continuous gravity without automatic flaps (1.0439ms)
+✔ a later click immediately refreshes upward speed even when falling (0.2525ms)
+✔ clicks arriving within one fixed step are coalesced, not stacked or replayed (0.154ms)
+✔ rapid repeated fresh clicks never add unlimited upward speed (0.1871ms)
+✔ gravity enforces maximum falling speed (0.3379ms)
+✔ ceiling collision clamps position and locks the run (0.1306ms)
+✔ floor collision clamps position and ends the run (0.4016ms)
+✔ upper and lower obstacle bodies both collide with the player (0.1765ms)
+✔ the middle of a generated gate is passable (0.0816ms)
+✔ restart resets run data, velocity, count, failure, obstacles and pending input (0.9713ms)
+✔ pause drops queued input, freezes the run and resume does not flap (0.1793ms)
+✔ cancellation removes unconsumed input in Ready and Playing (0.0775ms)
+✔ invalid time cannot consume a tap or corrupt position (0.098ms)
+✔ 30 seconds of discrete taps can pass generated gates and recycle the pool (5.2839ms)
+✔ five distinct animated types change visually; three static types stay identical (2.2407ms)
+✔ all primitive extents including line thickness stay inside danger rectangle at every sampled phase (37.0972ms)
+✔ animation loops are deterministic and changing pool slots offsets the phase (0.8729ms)
+✔ lightning bolt never disappears or becomes faint at any animation phase (0.2197ms)
+✔ visual sampling cannot mutate collision geometry, score, random state or clock (1.7012ms)
+✔ all twelve pairs remain passable at highest difficulty while sampling animations (81.6194ms)
+✔ eight types and exactly twelve legal pairs; forced coverage and collision for every pair (3.0557ms)
+✔ seeded replay produces identical geometry; random runs include both themes (2.3784ms)
+✔ 20,000 generated gates obey scene, bounds, overlap and maximum-speed reachability constraints (19.4504ms)
+✔ pool retains four object identities across recycling and restarting (0.1813ms)
+✔ score waits for full player clearance; each pair scores exactly once (0.1223ms)
+✔ death before scoring takes priority; pending passed gate cannot award on death (0.1689ms)
+✔ difficulty thresholds, speed ramp, upper limit and future-only geometry changes (2.9292ms)
+✔ 40 seeded two-theme runs each survive 180 seconds and reach capped difficulty with real tap physics (141.8588ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 247.6531

@@ -1,0 +1,44 @@
+{
+  "buildId": "tap-graybox-20261101-01",
+  "version": "0.3.0",
+  "control": "tap to flap",
+  "verifiedDate": "2026-11-01",
+  "creator": "3.8.8",
+  "typecheck": "passed (strict/noEmit)",
+  "modelTests": {
+    "passed": 16,
+    "failed": 0
+  },
+  "browserChecks": {
+    "passed": 11,
+    "failed": 0
+  },
+  "sourceSHA256": {
+    "package.json": "98e25c91ff08f3a6ca6297b22b742cc2797eac34be1c45d7779251cc95365e56",
+    "assets\\scenes\\game.scene": "5685e6b8ed1b7b5954e39b995a5faa3298fa3c1c99530c8e56866cff035bee68",
+    "assets\\scenes\\game.scene.meta": "92fe9da175bfe812b3dfe9e5b111c3e0b8d51c0da236a2030450d707ab300da8",
+    "assets\\scripts\\config\\FlightConfig.ts": "f91dec838b541350eed6632d258fedcc585b6d91e92ad2b20af99db8ed5be6c1",
+    "assets\\scripts\\config\\GameConfig.ts": "ae116d68faeaa44797ed2dfed144ab0815d8bb1ff414cc50059fc693dc0b480f",
+    "assets\\scripts\\gameplay\\FlightModel.ts": "fd084588993cb408a24c49d27c0f9d610cdc2e4452883c7d0cab1e4a8b415add",
+    "assets\\scripts\\gameplay\\GrayboxGame.ts": "355083e244f49c46b9b49dc44677ac7756edcb0c5da6778b469956e74f4ac8a3",
+    "assets\\scripts\\input\\FlightInput.ts": "802f71fdb51a8c471bde84e17ca62c7d566696d09703babc04d19f6f1409cd3a",
+    "scripts\\verify-graybox.cjs": "76ae6dd07afe8cbab87865c40c5d1750ed1436109ef87132c6abe6e509b57984",
+    "scripts\\test-flight-model.cjs": "ce0e346cc027e65d68e5695cabf79b1b14627eb8a72d4ec8acc1464527eac876"
+  },
+  "builds": {
+    "web-mobile": {
+      "status": "passed",
+      "creatorExitCode": 36,
+      "bytes": 6238809,
+      "output": "build/web-mobile"
+    },
+    "wechatgame": {
+      "status": "passed",
+      "creatorExitCode": 36,
+      "bytes": 5523800,
+      "output": "build/wechatgame"
+    }
+  },
+  "wechatRuntime": "not verified",
+  "humanFeelReview": "pending"
+}

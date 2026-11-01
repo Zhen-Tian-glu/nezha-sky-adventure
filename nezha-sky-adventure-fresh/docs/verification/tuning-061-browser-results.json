@@ -1,0 +1,59 @@
+{
+  "version": "0.6.1",
+  "checks": [
+    {
+      "name": "runtime character is byte-for-byte the original atlas specified by the user",
+      "result": "passed"
+    },
+    {
+      "name": "early game shows clear alternating opening sizes and a forgiving first gate",
+      "result": "passed"
+    },
+    {
+      "name": "capped difficulty retains 240–320 pixel varied openings and passes tap-physics simulation",
+      "result": "passed"
+    }
+  ],
+  "errors": [],
+  "reviewFixtures": true,
+  "early": [
+    {
+      "gap": 409,
+      "center": 24.63794431183487
+    },
+    {
+      "gap": 341,
+      "center": 43.49257061490789
+    },
+    {
+      "gap": 419,
+      "center": 35.062829952221364
+    },
+    {
+      "gap": 372,
+      "center": 17.95449981233105
+    }
+  ],
+  "late": {
+    "score": 65,
+    "speed": 255,
+    "gates": [
+      {
+        "gap": 288,
+        "level": 4
+      },
+      {
+        "gap": 240,
+        "level": 4
+      },
+      {
+        "gap": 303,
+        "level": 4
+      },
+      {
+        "gap": 254,
+        "level": 4
+      }
+    ]
+  }
+}

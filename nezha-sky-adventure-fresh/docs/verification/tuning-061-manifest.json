@@ -1,0 +1,75 @@
+{
+  "version": "0.6.1",
+  "buildId": "hero-gap-tuning-20261101-01",
+  "created": "2026-11-01T10:50:30.973485+08:00",
+  "modelTests": 37,
+  "browserChecks": 19,
+  "heroSource": "game_assets/production/v1/nezha_motion_atlas.png",
+  "gapRanges": [
+    [
+      340,
+      420
+    ],
+    [
+      310,
+      390
+    ],
+    [
+      285,
+      365
+    ],
+    [
+      260,
+      340
+    ],
+    [
+      240,
+      320
+    ]
+  ],
+  "minimumAdjacentGapDifference": 40,
+  "maximumSpeed": 255,
+  "wechatTool": "pending",
+  "phone": "pending",
+  "sources": {
+    "assets\\scripts\\config\\ArtManifest.ts": "37c4eb99680549c965a3306dc7ec7c25957904c7625eec6c921e62359def9ef3",
+    "assets\\scripts\\config\\FlightConfig.ts": "4fbbdb1c06be81848877496e91e4c11988c2f1c61fdbf78df4e675d6ff94341d",
+    "assets\\scripts\\config\\GameConfig.ts": "ae116d68faeaa44797ed2dfed144ab0815d8bb1ff414cc50059fc693dc0b480f",
+    "assets\\scripts\\config\\ObstacleConfig.ts": "ac2964516acb8348ca727c3bee6e0973039e6616b42a1503f249438704d10c10",
+    "assets\\scripts\\config\\ObstacleMasks.ts": "5a2ef4a707db43468d1dd811f05e5601c51dd80dbebc4f99c301efb166bd86c9",
+    "assets\\scripts\\gameplay\\ArtAnimation.ts": "b26cce0b547a1c23557f6b8c4be1fdce039136f09c3a4e39657436e4e5c08954",
+    "assets\\scripts\\gameplay\\ArtCollision.ts": "0fbfb80d794ac2993297307da29ed7b5b152cfb558cb021ce5016ee6aecaf771",
+    "assets\\scripts\\gameplay\\FlightModel.ts": "0b2ebdec1c0bdcc149864011867b651a5a96417053d0c368e4b32178d676de3e",
+    "assets\\scripts\\gameplay\\GrayboxGame.ts": "bd2f34588a0503547f0e5cda4ea2d947498a145620cb7146279d61af2fb35b6a",
+    "assets\\scripts\\gameplay\\ObstacleField.ts": "4e1e2e4f2549a0a0be26314a658bd5049b92afc00365ddd7855bdb90229123c8",
+    "assets\\scripts\\gameplay\\ObstacleMotion.ts": "66dae6922bc5990871ef7b1402aec9e0e2ccd74159aeb699645f38897290a5f6",
+    "assets\\scripts\\gameplay\\ObstacleMotionRenderer.ts": "c69e5b337ff81b812a5f6127bfb3264b09fc27b2e58ac9de4ecd135de8428eb5",
+    "assets\\scripts\\gameplay\\ProductionArt.ts": "8920b0c9cde199a7693cb34b79bf817ecfb61da38ba57e102fede62d1874bc97",
+    "assets\\scripts\\gameplay\\RichObstacleMotion.ts": "aaec9ebc2fe19d9884145525424d1e20c254d418b325f5ce15bd4bd261f5c544",
+    "assets\\scripts\\gameplay\\SeededRandom.ts": "93ca3652f90fbe1efda15d05b929b965170993b935c3579e82f35b27c017f589",
+    "assets\\scripts\\input\\FlightInput.ts": "802f71fdb51a8c471bde84e17ca62c7d566696d09703babc04d19f6f1409cd3a",
+    "package.json": "a73123e78391846a22336e6031bd179861be528739b3df5670d687cfe7dd6cde",
+    "scripts\\prepare-art.py": "aef9464dba1c7a4626edbc00e3aa25fc42f32d5b59ea51e6ab3d21b1d767200e",
+    "D:\\codex_workspace\\哪吒今天不闹海\\game_assets\\production\\v1\\hero_selection.json": "a1893b2b7a87137d76a290553730b938da19c6d2b0e307450b373cee8661f76d",
+    "assets\\resources\\art\\dragon_background.png": "8fe2436640d57d16d9fef0fc079ac86d44367b36ffc4362a4d0b7a3fad70471a",
+    "assets\\resources\\art\\dragon_foreground.png": "7650c5e674ad3ed2febdbccbbe52c5dee1580ddc6fc2435b042aed3425b9b198",
+    "assets\\resources\\art\\nezha_motion_atlas.png": "88eb0e16feff86dc33ff5f4e7f4b7c469033e28a73eb58cad543a932f63f3ac9",
+    "assets\\resources\\art\\obstacle_column_atlas.png": "cc464aa2914ee0f21374aae1ea0d0e92560a14bcc67a16ab484ec8a2225a6135",
+    "assets\\resources\\art\\sky_background.png": "136fc5e64bf1de085c0ecbe455418ba3c7ab6e002268ba8aa01e44d198c9385a",
+    "assets\\resources\\art\\sky_foreground.png": "ee7a9bf274dc09572675f0ca747615ad4584f7d84e52dfabdc7e3cd1fc0bfbc6"
+  },
+  "builds": {
+    "web-mobile": {
+      "path": "D:\\codex_workspace\\哪吒今天不闹海\\nezha-sky-adventure-fresh\\build\\web-mobile",
+      "files": 47,
+      "uncompressedBytes": 18064893,
+      "applicationSHA256": "3876486e03ffd49f5cb8bce6d5a23b7ec392a533487229483a3b2429530093f2"
+    },
+    "wechatgame": {
+      "path": "D:\\codex_workspace\\哪吒今天不闹海\\nezha-sky-adventure-fresh\\build\\wechatgame",
+      "files": 51,
+      "uncompressedBytes": 17335312,
+      "applicationSHA256": "3876486e03ffd49f5cb8bce6d5a23b7ec392a533487229483a3b2429530093f2"
+    }
+  }
+}

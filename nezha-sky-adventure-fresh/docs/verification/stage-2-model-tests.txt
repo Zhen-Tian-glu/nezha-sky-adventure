@@ -1,0 +1,32 @@
+✔ Ready waits indefinitely; neither gravity nor obstacles start automatically (1.6669ms)
+✔ first click starts the run and produces exactly one impulse (0.2544ms)
+✔ one click is followed by continuous gravity without automatic flaps (0.7375ms)
+✔ a later click immediately refreshes upward speed even when falling (0.2343ms)
+✔ clicks arriving within one fixed step are coalesced, not stacked or replayed (0.1532ms)
+✔ rapid repeated fresh clicks never add unlimited upward speed (0.1991ms)
+✔ gravity enforces maximum falling speed (0.2998ms)
+✔ ceiling collision clamps position and locks the run (0.2891ms)
+✔ floor collision clamps position and ends the run (0.335ms)
+✔ upper and lower obstacle bodies both collide with the player (0.1807ms)
+✔ the middle of a generated gate is passable (0.0689ms)
+✔ restart resets run data, velocity, count, failure, obstacles and pending input (0.3784ms)
+✔ pause drops queued input, freezes the run and resume does not flap (0.1478ms)
+✔ cancellation removes unconsumed input in Ready and Playing (0.0792ms)
+✔ invalid time cannot consume a tap or corrupt position (0.1005ms)
+✔ 30 seconds of discrete taps can pass generated gates and recycle the pool (5.7812ms)
+✔ eight types and exactly twelve legal pairs; forced coverage and collision for every pair (2.4882ms)
+✔ seeded replay produces identical geometry; random runs include both themes (2.1466ms)
+✔ 20,000 generated gates obey scene, bounds, overlap and maximum-speed reachability constraints (18.5718ms)
+✔ pool retains four object identities across recycling and restarting (0.4042ms)
+✔ score waits for full player clearance; each pair scores exactly once (0.3172ms)
+✔ death before scoring takes priority; pending passed gate cannot award on death (0.1829ms)
+✔ difficulty thresholds, speed ramp, upper limit and future-only geometry changes (4.3662ms)
+✔ 40 seeded two-theme runs each survive 180 seconds and reach capped difficulty with real tap physics (137.9041ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 243.713

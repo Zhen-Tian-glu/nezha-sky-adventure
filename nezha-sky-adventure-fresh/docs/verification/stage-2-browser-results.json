@@ -1,0 +1,34 @@
+{
+  "version": "0.4.0",
+  "checks": [
+    {
+      "name": "normal start selects a theme and waits without a flap",
+      "result": "passed"
+    },
+    {
+      "name": "sky: visible scoring with real keyboard taps, pause freezes score and obstacles, continue adds no impulse",
+      "result": "passed"
+    },
+    {
+      "name": "dragon: visible scoring with real keyboard taps, pause freezes score and obstacles, continue adds no impulse",
+      "result": "passed"
+    },
+    {
+      "name": "all twelve configured pairs render correct labels across theme changes",
+      "result": "passed"
+    },
+    {
+      "name": "100-score simulation reuses the same four rendered nodes and model slots",
+      "result": "passed"
+    },
+    {
+      "name": "death freezes score; result displays score; restart clears score and waits",
+      "result": "passed"
+    },
+    {
+      "name": "390x844 touch start and consecutive taps work with theme and score HUD",
+      "result": "passed"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,4 @@
+2026-10-31
+cli.bat open --project build/wechatgame: IDE service port disabled; tool exited without importing project.
+wechatide check_wechatide_status: authorization pending for client Codex.
+No simulator or real-device success has been observed.

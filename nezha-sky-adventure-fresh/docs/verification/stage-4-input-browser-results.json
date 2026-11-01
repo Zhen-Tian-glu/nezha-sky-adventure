@@ -1,0 +1,188 @@
+{
+  "mode": "tap",
+  "checks": [
+    {
+      "name": "start button does not flap; Ready freezes until first playfield tap",
+      "result": "passed"
+    },
+    {
+      "name": "one press is one impulse; hold and release do not repeat; a fresh tap restores upward speed",
+      "result": "passed",
+      "up": {
+        "state": "playing",
+        "y": 39.75,
+        "v": 180,
+        "flaps": 1,
+        "time": 0.15,
+        "failure": null,
+        "angle": 11.880042745020265,
+        "gates": [
+          {
+            "slotId": 0,
+            "generation": 1,
+            "x": 464.49999999999966,
+            "centerY": -22.497824844904244,
+            "gapHeight": 377,
+            "width": 110,
+            "lowerWidth": 110,
+            "upperWidth": 101,
+            "lower": "fireball",
+            "upper": "lightning",
+            "scored": false,
+            "difficultyLevel": 0
+          },
+          {
+            "slotId": 1,
+            "generation": 2,
+            "x": 964.5000000000007,
+            "centerY": -17.657307321205735,
+            "gapHeight": 371,
+            "width": 137,
+            "lowerWidth": 131,
+            "upperWidth": 137,
+            "lower": "mountain",
+            "upper": "cloud",
+            "scored": false,
+            "difficultyLevel": 0
+          },
+          {
+            "slotId": 2,
+            "generation": 3,
+            "x": 1464.4999999999986,
+            "centerY": -6.258267506491393,
+            "gapHeight": 380,
+            "width": 150,
+            "lowerWidth": 150,
+            "upperWidth": 131,
+            "lower": "mountain",
+            "upper": "cloud",
+            "scored": false,
+            "difficultyLevel": 0
+          },
+          {
+            "slotId": 3,
+            "generation": 4,
+            "x": 1964.4999999999986,
+            "centerY": 4.501735696103424,
+            "gapHeight": 378,
+            "width": 123,
+            "lowerWidth": 106,
+            "upperWidth": 123,
+            "lower": "pillar",
+            "upper": "windwheel",
+            "scored": false,
+            "difficultyLevel": 0
+          }
+        ]
+      },
+      "held": {
+        "state": "playing",
+        "y": -151,
+        "v": -440,
+        "flaps": 1,
+        "time": 0.9416666666666658,
+        "failure": null,
+        "angle": -27.064036539812154,
+        "gates": [
+          {
+            "slotId": 0,
+            "generation": 1,
+            "x": 329.9166666666645,
+            "centerY": -22.497824844904244,
+            "gapHeight": 377,
+            "width": 110,
+            "lowerWidth": 110,
+            "upperWidth": 101,
+            "lower": "fireball",
+            "upper": "lightning",
+            "scored": false,
+            "difficultyLevel": 0
+          },
+          {
+            "slotId": 1,
+            "generation": 2,
+            "x": 829.916666666671,
+            "centerY": -17.657307321205735,
+            "gapHeight": 371,
+            "width": 137,
+            "lowerWidth": 131,
+            "upperWidth": 137,
+            "lower": "mountain",
+            "upper": "cloud",
+            "scored": false,
+            "difficultyLevel": 0
+          },
+          {
+            "slotId": 2,
+            "generation": 3,
+            "x": 1329.916666666658,
+            "centerY": -6.258267506491393,
+            "gapHeight": 380,
+            "width": 150,
+            "lowerWidth": 150,
+            "upperWidth": 131,
+            "lower": "mountain",
+            "upper": "cloud",
+            "scored": false,
+            "difficultyLevel": 0
+          },
+          {
+            "slotId": 3,
+            "generation": 4,
+            "x": 1829.916666666658,
+            "centerY": 4.501735696103424,
+            "gapHeight": 378,
+            "width": 123,
+            "lowerWidth": 106,
+            "upperWidth": 123,
+            "lower": "pillar",
+            "upper": "windwheel",
+            "scored": false,
+            "difficultyLevel": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "no tapping leads to floor collision; death freezes geometry and velocity",
+      "result": "passed"
+    },
+    {
+      "name": "restart resets run data and waits for a fresh playfield tap",
+      "result": "passed"
+    },
+    {
+      "name": "header/UI region does not trigger flight",
+      "result": "passed"
+    },
+    {
+      "name": "keyboard repeats ignored; pause/continue buttons do not flap or replay held key",
+      "result": "passed"
+    },
+    {
+      "name": "engine hide/show clears pending input and requires explicit resume without an impulse",
+      "result": "passed"
+    },
+    {
+      "name": "repeated discrete taps can reach the ceiling and end the run",
+      "result": "passed"
+    },
+    {
+      "name": "tap-controlled flight reaches a rendered gate and collides with its upper body",
+      "result": "passed"
+    },
+    {
+      "name": "390x844 touch: primary finger only, no synthetic mouse duplication, cancel/release never flap, fresh press works",
+      "result": "passed"
+    },
+    {
+      "name": "visible tutorial and status copy use tapping rather than holding",
+      "result": "passed"
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "favicon.ico 404",
+    "Ignored attempt to cancel a touchcancel event with cancelable=false, for example because scrolling is in progress and cannot be interrupted."
+  ]
+}

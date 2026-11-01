@@ -1,0 +1,34 @@
+{
+  "buildId": "baseline-20261031-01",
+  "checkedAt": "2026-10-31T18:17:38.194334+08:00",
+  "creator": "3.8.8",
+  "typescriptCheck": "passed",
+  "builds": {
+    "web-mobile": {
+      "status": "passed",
+      "creatorExitCode": 36,
+      "output": "build\\web-mobile",
+      "bytes": 6214629,
+      "mib": 5.93
+    },
+    "wechatgame": {
+      "status": "passed",
+      "creatorExitCode": 36,
+      "output": "build\\wechatgame",
+      "bytes": 5499620,
+      "mib": 5.24
+    }
+  },
+  "sourceSHA256": {
+    "package.json": "c967fb51e1d2bff1f0568e362c0656d258f0f34749b93ae740262437e66589d5",
+    "tsconfig.json": "54e95e05ba1031036e20e3b3506cd2cd8e394559bab068b8e671a8a73fc0f6ef",
+    "assets/scenes/game.scene": "6383de849449da6be44c9817d50b32d93f4851b2074bfafd38a92a7b190be1a9",
+    "assets/scenes/game.scene.meta": "92fe9da175bfe812b3dfe9e5b111c3e0b8d51c0da236a2030450d707ab300da8",
+    "settings/v2/packages/project.json": "4c939822597d912b5ad9a6b3a43d6dc4bf9b6a54d2d61a55713a04b5083fb834",
+    "settings/v2/packages/engine.json": "923e4b5da15f60a2ebf1d7bdb43b465dbe99e95c238ca891dc1673a0b684cfdb",
+    "config/build-web-mobile.json": "c4de435eda1c1a8b63062568cb320354689b0c19da333ccad3b516b1e1dcc3b2",
+    "config/build-wechatgame.json": "409399cfc1f832b6a9a070eb7abf8629e9cbc179c68dd617274468308d1bb93d"
+  },
+  "wechatRuntime": "pending: IDE service port disabled; CLI authorization pending; no real AppID supplied",
+  "gameplayImplemented": false
+}

@@ -1,0 +1,24 @@
+✔ Ready waits indefinitely; neither gravity nor obstacles start automatically (1.4391ms)
+✔ first click starts the run and produces exactly one impulse (0.1661ms)
+✔ one click is followed by continuous gravity without automatic flaps (0.207ms)
+✔ a later click immediately refreshes upward speed even when falling (0.2207ms)
+✔ clicks arriving within one fixed step are coalesced, not stacked or replayed (0.102ms)
+✔ rapid repeated fresh clicks never add unlimited upward speed (0.1296ms)
+✔ gravity enforces maximum falling speed (0.1864ms)
+✔ ceiling collision clamps position and locks the run (0.1026ms)
+✔ floor collision clamps position and ends the run (0.2575ms)
+✔ upper and lower obstacle bodies both collide with the player (0.1165ms)
+✔ the middle of the fixed gate is passable (0.1607ms)
+✔ restart resets run data, velocity, count, failure, obstacles and pending input (0.2489ms)
+✔ pause drops queued input, freezes the run and resume does not flap (0.1333ms)
+✔ cancellation removes unconsumed input in Ready and Playing (0.0426ms)
+✔ invalid time cannot consume a tap or corrupt position (0.0488ms)
+✔ 30 seconds of discrete taps can pass the fixed sequence and recycle gates (3.5349ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 76.2829

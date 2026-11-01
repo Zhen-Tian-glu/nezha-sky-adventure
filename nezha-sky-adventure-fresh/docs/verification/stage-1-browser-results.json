@@ -1,0 +1,81 @@
+{
+  "checks": [
+    {
+      "name": "real mouse hold, release, tilt and speed limits",
+      "rising": {
+        "state": "playing",
+        "y": 61.68749999999999,
+        "v": 360,
+        "pressed": true,
+        "time": 0.366666666666667,
+        "failure": null,
+        "angle": 16.246785133531784,
+        "gates": [
+          {
+            "x": 427.66666666666583,
+            "centerY": 0
+          },
+          {
+            "x": 897.6666666666683,
+            "centerY": 70
+          },
+          {
+            "x": 1367.6666666666633,
+            "centerY": -70
+          }
+        ]
+      },
+      "falling": {
+        "state": "playing",
+        "y": 61.68749999999999,
+        "v": -350,
+        "pressed": false,
+        "time": 0.9583333333333324,
+        "failure": null,
+        "angle": -15.188028250040214,
+        "gates": [
+          {
+            "x": 327.08333333333115,
+            "centerY": 0
+          },
+          {
+            "x": 797.0833333333377,
+            "centerY": 70
+          },
+          {
+            "x": 1267.0833333333246,
+            "centerY": -70
+          }
+        ]
+      }
+    },
+    {
+      "name": "floor collision and post-death freeze",
+      "result": "passed"
+    },
+    {
+      "name": "restart reset and ceiling collision",
+      "result": "passed"
+    },
+    {
+      "name": "engine hide/show lifecycle freezes run and requires explicit resume",
+      "result": "passed"
+    },
+    {
+      "name": "pause button",
+      "result": "passed"
+    },
+    {
+      "name": "real keyboard flight into the first rendered obstacle",
+      "result": "passed"
+    },
+    {
+      "name": "390x844 touch input, second finger release, touch cancellation",
+      "result": "passed"
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "favicon.ico 404"
+  ]
+}

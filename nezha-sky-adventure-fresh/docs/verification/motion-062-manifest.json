@@ -1,0 +1,94 @@
+{
+  "version": "0.6.2",
+  "buildId": "scene-motion-spacing-20261101-01",
+  "created": "2026-11-01T11:12:08.823185+08:00",
+  "modelTests": 41,
+  "browserChecks": 22,
+  "backgrounds": [
+    "sky cloud/wind/light",
+    "dragon bubbles/currents/light"
+  ],
+  "midNearSpeeds": [
+    20,
+    42
+  ],
+  "requestedSpacing": [
+    480,
+    455,
+    430,
+    415,
+    400
+  ],
+  "spacingStats": [
+    {
+      "score": 0,
+      "samples": 3089,
+      "min": 460.3523550014943,
+      "mean": 484.29367735464876,
+      "max": 507.0904179252684
+    },
+    {
+      "score": 5,
+      "samples": 3243,
+      "min": 435.2236961182207,
+      "mean": 459.4907901874056,
+      "max": 482.12557503581047
+    },
+    {
+      "score": 12,
+      "samples": 3373,
+      "min": 410.3523550014943,
+      "mean": 439.97251575302266,
+      "max": 469.3469721461772
+    },
+    {
+      "score": 22,
+      "samples": 3413,
+      "min": 400.21358887585507,
+      "mean": 434.2700128431566,
+      "max": 469.34697214617734
+    },
+    {
+      "score": 35,
+      "samples": 3433,
+      "min": 391.59867521858587,
+      "mean": 432.5120952737709,
+      "max": 469.34697214617734
+    }
+  ],
+  "wechatTool": "pending",
+  "phone": "pending",
+  "sources": {
+    "assets\\scripts\\config\\ArtManifest.ts": "37c4eb99680549c965a3306dc7ec7c25957904c7625eec6c921e62359def9ef3",
+    "assets\\scripts\\config\\FlightConfig.ts": "4fbbdb1c06be81848877496e91e4c11988c2f1c61fdbf78df4e675d6ff94341d",
+    "assets\\scripts\\config\\GameConfig.ts": "ae116d68faeaa44797ed2dfed144ab0815d8bb1ff414cc50059fc693dc0b480f",
+    "assets\\scripts\\config\\ObstacleConfig.ts": "d8656e7a7485858c19111a62eac09ccff66033b98b241bfb3680d8a7ddeaca8d",
+    "assets\\scripts\\config\\ObstacleMasks.ts": "5a2ef4a707db43468d1dd811f05e5601c51dd80dbebc4f99c301efb166bd86c9",
+    "assets\\scripts\\gameplay\\ArtAnimation.ts": "b26cce0b547a1c23557f6b8c4be1fdce039136f09c3a4e39657436e4e5c08954",
+    "assets\\scripts\\gameplay\\ArtCollision.ts": "0fbfb80d794ac2993297307da29ed7b5b152cfb558cb021ce5016ee6aecaf771",
+    "assets\\scripts\\gameplay\\FlightModel.ts": "c8a437d1a4b09380a3026e1c61644399e84e2550b911678af4d0ee0ab40ffd11",
+    "assets\\scripts\\gameplay\\GrayboxGame.ts": "602125154ead9459886eadcb0ae145fb474a89e217e2754bb34d35edcf982a68",
+    "assets\\scripts\\gameplay\\ObstacleField.ts": "67a56a5b3f9339a31721565c08262411abf1ca17c72506fb082452d923e72846",
+    "assets\\scripts\\gameplay\\ObstacleMotion.ts": "66dae6922bc5990871ef7b1402aec9e0e2ccd74159aeb699645f38897290a5f6",
+    "assets\\scripts\\gameplay\\ObstacleMotionRenderer.ts": "33f5b7837b1868942b5137523d1466fd7b07bb239c35d321a4a4a63a2e726bf3",
+    "assets\\scripts\\gameplay\\ObstaclePose.ts": "cd792e513537d2ce9f183bb9cc985335b5cfb750e1773e6d618d24f23d655b90",
+    "assets\\scripts\\gameplay\\ProductionArt.ts": "8920b0c9cde199a7693cb34b79bf817ecfb61da38ba57e102fede62d1874bc97",
+    "assets\\scripts\\gameplay\\RichObstacleMotion.ts": "aaec9ebc2fe19d9884145525424d1e20c254d418b325f5ce15bd4bd261f5c544",
+    "assets\\scripts\\gameplay\\SceneMotion.ts": "2cb6b37e20b0c233540c37c3be3dbad988e8d3f22d97412ebc0678fdd8d81c90",
+    "assets\\scripts\\gameplay\\SeededRandom.ts": "93ca3652f90fbe1efda15d05b929b965170993b935c3579e82f35b27c017f589",
+    "assets\\scripts\\input\\FlightInput.ts": "802f71fdb51a8c471bde84e17ca62c7d566696d09703babc04d19f6f1409cd3a",
+    "package.json": "7acf52439682dcdc5e9be5d41573aca07db85cd374f86f9870be939b44be81ac"
+  },
+  "builds": {
+    "web-mobile": {
+      "path": "D:\\codex_workspace\\哪吒今天不闹海\\nezha-sky-adventure-fresh\\build\\web-mobile",
+      "uncompressedBytes": 18073805,
+      "files": 47
+    },
+    "wechatgame": {
+      "path": "D:\\codex_workspace\\哪吒今天不闹海\\nezha-sky-adventure-fresh\\build\\wechatgame",
+      "uncompressedBytes": 17344224,
+      "files": 51
+    }
+  }
+}

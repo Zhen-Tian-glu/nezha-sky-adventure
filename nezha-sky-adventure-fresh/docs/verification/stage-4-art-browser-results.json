@@ -1,0 +1,42 @@
+{
+  "version": "0.6.0",
+  "checks": [
+    {
+      "name": "six image textures load; sixteen character frames and eight painted obstacle frames are bound",
+      "result": "passed"
+    },
+    {
+      "name": "all twelve legal pairs bind painted sprites; two different backgrounds and matching parallax banks render",
+      "result": "passed"
+    },
+    {
+      "name": "Ready plays idle character frames while gameplay waits for a fresh click",
+      "result": "passed"
+    },
+    {
+      "name": "real click selects rise frames, gravity transition selects fall frames",
+      "result": "passed"
+    },
+    {
+      "name": "pause freezes art, parallax, score and geometry; continue does not flap",
+      "result": "passed"
+    },
+    {
+      "name": "four-frame hit and shock burst precede result; physics and score already frozen",
+      "result": "passed"
+    },
+    {
+      "name": "twenty art/theme restarts reuse the same pool and sprite count",
+      "result": "passed"
+    },
+    {
+      "name": "five richer effects change actual rendered pixels while permanent painted silhouettes and colliders stay fixed",
+      "result": "passed"
+    },
+    {
+      "name": "390x844, 375x667 and short 390x650 screens cover the background and accept touch without hiding core UI",
+      "result": "passed"
+    }
+  ],
+  "errors": []
+}

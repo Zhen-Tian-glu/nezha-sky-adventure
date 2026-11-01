@@ -1,0 +1,41 @@
+{
+  "version": "0.5.0",
+  "checks": [
+    {
+      "name": "all twelve pairs: five dynamic types change real pixels; three static types do not; geometry unchanged",
+      "result": "passed"
+    },
+    {
+      "name": "real engine clock animates interiors and scrolls gates without vertical hazard movement",
+      "result": "passed"
+    },
+    {
+      "name": "pause and hide/show freeze motion; explicit continue resumes without phase jump or flap",
+      "result": "passed"
+    },
+    {
+      "name": "game over freezes effect phase, positions and score",
+      "result": "passed"
+    },
+    {
+      "name": "restart resets animation clock and theme while reusing all four effect nodes",
+      "result": "passed"
+    },
+    {
+      "name": "dim lightning still collides with the same visible solid body",
+      "result": "passed"
+    },
+    {
+      "name": "390x844 touch and dynamic hazard layout remain usable",
+      "result": "passed"
+    }
+  ],
+  "errors": [],
+  "pixels": {
+    "lightning": "changed",
+    "windwheel": "changed",
+    "fireball": "changed",
+    "seaMonster": "changed",
+    "waterball": "changed"
+  }
+}

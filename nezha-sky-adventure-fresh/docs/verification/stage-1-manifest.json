@@ -1,0 +1,36 @@
+{
+  "buildId": "graybox-20261031-01",
+  "version": "0.2.0",
+  "checkedAt": "2026-10-31T20:31:18.596276+08:00",
+  "creator": "3.8.8",
+  "typecheck": "passed",
+  "modelTests": {
+    "passed": 10,
+    "failed": 0
+  },
+  "browserChecks": 7,
+  "wechatRuntime": "not verified",
+  "humanPlaytest": "pending",
+  "sourceSHA256": {
+    "package.json": "0a0a97f527667b13d7f10cd28f9abde19e709326098194be6a60c3f2f59963d2",
+    "assets/scenes/game.scene": "5685e6b8ed1b7b5954e39b995a5faa3298fa3c1c99530c8e56866cff035bee68",
+    "assets/scenes/game.scene.meta": "92fe9da175bfe812b3dfe9e5b111c3e0b8d51c0da236a2030450d707ab300da8",
+    "assets/scripts/config/GameConfig.ts": "ae116d68faeaa44797ed2dfed144ab0815d8bb1ff414cc50059fc693dc0b480f",
+    "assets/scripts/config/FlightConfig.ts": "29a36a6f41b46b1fd5ef4470939ab238f90d110cb22bcefe5c4baf136b9f5051",
+    "assets/scripts/gameplay/FlightModel.ts": "8bb4700af6e67ba6e3d39bb33ddc338efe88379088833b0fc87a3ba5cef3f168",
+    "assets/scripts/gameplay/GrayboxGame.ts": "c62c772016eccf301a5675d184a612b36f3db9cdd1146755bd64b2ff002dfcf5",
+    "assets/scripts/input/FlightInput.ts": "be82e4f01c5e7eac22f44f805725ec628df72646ca334d00dcfef38adba7ba3c"
+  },
+  "builds": {
+    "web-mobile": {
+      "exitCode": 36,
+      "bytes": 6235504,
+      "output": "build/web-mobile"
+    },
+    "wechatgame": {
+      "exitCode": 36,
+      "bytes": 5520495,
+      "output": "build/wechatgame"
+    }
+  }
+}

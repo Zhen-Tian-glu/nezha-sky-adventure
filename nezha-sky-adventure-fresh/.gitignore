@@ -1,0 +1,11 @@
+/library/
+/temp/
+/local/
+/build/
+/profiles/
+/node_modules/
+/.vscode/
+/.idea/
+*.log
+/config/*.local.json
+!docs/verification/*-build.log

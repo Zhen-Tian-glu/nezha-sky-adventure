@@ -1,0 +1,86 @@
+{
+  "hero": [
+    {
+      "frame": 0,
+      "opaquePixels": 16494,
+      "transparentPixels": 55802
+    },
+    {
+      "frame": 1,
+      "opaquePixels": 16013,
+      "transparentPixels": 54801
+    },
+    {
+      "frame": 2,
+      "opaquePixels": 16522,
+      "transparentPixels": 52144
+    },
+    {
+      "frame": 3,
+      "opaquePixels": 16401,
+      "transparentPixels": 57160
+    },
+    {
+      "frame": 4,
+      "opaquePixels": 18312,
+      "transparentPixels": 51328
+    },
+    {
+      "frame": 5,
+      "opaquePixels": 19030,
+      "transparentPixels": 44828
+    },
+    {
+      "frame": 6,
+      "opaquePixels": 19182,
+      "transparentPixels": 46363
+    },
+    {
+      "frame": 7,
+      "opaquePixels": 18103,
+      "transparentPixels": 51424
+    },
+    {
+      "frame": 8,
+      "opaquePixels": 19578,
+      "transparentPixels": 52810
+    },
+    {
+      "frame": 9,
+      "opaquePixels": 18648,
+      "transparentPixels": 50667
+    },
+    {
+      "frame": 10,
+      "opaquePixels": 18571,
+      "transparentPixels": 50343
+    },
+    {
+      "frame": 11,
+      "opaquePixels": 18403,
+      "transparentPixels": 54724
+    },
+    {
+      "frame": 12,
+      "opaquePixels": 17928,
+      "transparentPixels": 52119
+    },
+    {
+      "frame": 13,
+      "opaquePixels": 18390,
+      "transparentPixels": 44391
+    },
+    {
+      "frame": 14,
+      "opaquePixels": 17777,
+      "transparentPixels": 47321
+    },
+    {
+      "frame": 15,
+      "opaquePixels": 18217,
+      "transparentPixels": 54597
+    }
+  ],
+  "result": "passed",
+  "sourceAtlas": "D:\\codex_workspace\\哪吒今天不闹海\\game_assets\\production\\v1\\asset_manifest.json"
+}

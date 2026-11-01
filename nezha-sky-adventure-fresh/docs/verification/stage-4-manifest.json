@@ -1,0 +1,81 @@
+{
+  "buildId": "art-integration-20261101-01",
+  "version": "0.6.0",
+  "created": "2026-11-01T10:31:29.012654+08:00",
+  "creator": "3.8.8",
+  "project": "D:\\codex_workspace\\哪吒今天不闹海\\nezha-sky-adventure-fresh",
+  "checks": {
+    "typescript": "passed",
+    "modelTests": {
+      "passed": 35,
+      "failed": 0
+    },
+    "heroFrames": 16,
+    "obstacleTypes": 8,
+    "alphaMaskCells": 131072,
+    "browserArt": 9,
+    "browserObstacles": 7,
+    "browserInput": 11,
+    "screenSizes": [
+      "750x1334",
+      "390x844",
+      "375x667",
+      "390x650"
+    ],
+    "webMobileBuild": "passed",
+    "wechatgameBuild": "passed",
+    "wechatTool": "pending",
+    "phone": "pending",
+    "releasePackageBudget": "pending",
+    "userArtReview": "pending"
+  },
+  "sources": {
+    "assets\\scripts\\config\\ArtManifest.ts": "2e426bf45c35f4e5299fa95dfb99ccf62b8236df753b64ab14211b4f07c68cbe",
+    "assets\\scripts\\config\\FlightConfig.ts": "4fbbdb1c06be81848877496e91e4c11988c2f1c61fdbf78df4e675d6ff94341d",
+    "assets\\scripts\\config\\GameConfig.ts": "ae116d68faeaa44797ed2dfed144ab0815d8bb1ff414cc50059fc693dc0b480f",
+    "assets\\scripts\\config\\ObstacleConfig.ts": "8ac4a6170a8205430842ad8e3e78b35934435ff9294e5e677cc7713b46b1f0b8",
+    "assets\\scripts\\config\\ObstacleMasks.ts": "5a2ef4a707db43468d1dd811f05e5601c51dd80dbebc4f99c301efb166bd86c9",
+    "assets\\scripts\\gameplay\\ArtAnimation.ts": "b26cce0b547a1c23557f6b8c4be1fdce039136f09c3a4e39657436e4e5c08954",
+    "assets\\scripts\\gameplay\\ArtCollision.ts": "0fbfb80d794ac2993297307da29ed7b5b152cfb558cb021ce5016ee6aecaf771",
+    "assets\\scripts\\gameplay\\FlightModel.ts": "0b2ebdec1c0bdcc149864011867b651a5a96417053d0c368e4b32178d676de3e",
+    "assets\\scripts\\gameplay\\GrayboxGame.ts": "17a5252cdcb0833ea1ee3fb002bccbb4b537ccef4bd5a1cb6142a04272614fe1",
+    "assets\\scripts\\gameplay\\ObstacleField.ts": "df09b9966647d3d87ddc583b4afd39beb7a9404ca0cd4f4910eafc7b16f4afdc",
+    "assets\\scripts\\gameplay\\ObstacleMotion.ts": "66dae6922bc5990871ef7b1402aec9e0e2ccd74159aeb699645f38897290a5f6",
+    "assets\\scripts\\gameplay\\ObstacleMotionRenderer.ts": "c69e5b337ff81b812a5f6127bfb3264b09fc27b2e58ac9de4ecd135de8428eb5",
+    "assets\\scripts\\gameplay\\ProductionArt.ts": "8920b0c9cde199a7693cb34b79bf817ecfb61da38ba57e102fede62d1874bc97",
+    "assets\\scripts\\gameplay\\RichObstacleMotion.ts": "aaec9ebc2fe19d9884145525424d1e20c254d418b325f5ce15bd4bd261f5c544",
+    "assets\\scripts\\gameplay\\SeededRandom.ts": "93ca3652f90fbe1efda15d05b929b965170993b935c3579e82f35b27c017f589",
+    "assets\\scripts\\input\\FlightInput.ts": "802f71fdb51a8c471bde84e17ca62c7d566696d09703babc04d19f6f1409cd3a",
+    "package.json": "ed7be95568dbb1bc166ff5d57fded4ac7dd79544aead1c94295a686b9a9e7165",
+    "assets\\scenes\\game.scene": "5685e6b8ed1b7b5954e39b995a5faa3298fa3c1c99530c8e56866cff035bee68",
+    "config\\build-web-mobile.json": "c4de435eda1c1a8b63062568cb320354689b0c19da333ccad3b516b1e1dcc3b2",
+    "config\\build-wechatgame.json": "409399cfc1f832b6a9a070eb7abf8629e9cbc179c68dd617274468308d1bb93d",
+    "assets\\resources\\art\\dragon_background.png": "8fe2436640d57d16d9fef0fc079ac86d44367b36ffc4362a4d0b7a3fad70471a",
+    "assets\\resources\\art\\dragon_foreground.png": "7650c5e674ad3ed2febdbccbbe52c5dee1580ddc6fc2435b042aed3425b9b198",
+    "assets\\resources\\art\\nezha_motion_atlas.png": "5ff9f25ac3a148044d85465107cc925f3e3342b538a5f80baddc23a099d3603a",
+    "assets\\resources\\art\\obstacle_column_atlas.png": "cc464aa2914ee0f21374aae1ea0d0e92560a14bcc67a16ab484ec8a2225a6135",
+    "assets\\resources\\art\\sky_background.png": "136fc5e64bf1de085c0ecbe455418ba3c7ab6e002268ba8aa01e44d198c9385a",
+    "assets\\resources\\art\\sky_foreground.png": "ee7a9bf274dc09572675f0ca747615ad4584f7d84e52dfabdc7e3cd1fc0bfbc6"
+  },
+  "builds": {
+    "web-mobile": {
+      "path": "D:\\codex_workspace\\哪吒今天不闹海\\nezha-sky-adventure-fresh\\build\\web-mobile",
+      "files": 47,
+      "uncompressedBytes": 17110839,
+      "artifacts": {
+        "application.js": "3876486e03ffd49f5cb8bce6d5a23b7ec392a533487229483a3b2429530093f2",
+        "index.html": "d4ee119049c261b67d86a64dd80690b2235b06423e614f6e23e459bf8d3416d6"
+      }
+    },
+    "wechatgame": {
+      "path": "D:\\codex_workspace\\哪吒今天不闹海\\nezha-sky-adventure-fresh\\build\\wechatgame",
+      "files": 51,
+      "uncompressedBytes": 16381258,
+      "artifacts": {
+        "application.js": "3876486e03ffd49f5cb8bce6d5a23b7ec392a533487229483a3b2429530093f2",
+        "game.js": "ae7c0256508b4f8c2b0a97e67291c43e9c9317cecfc6db7b2495b0818a22aa05",
+        "project.config.json": "0d150f55b17c288f51fb88577639e7f3df2e54469f06f43599cd5b4dfe796361"
+      }
+    }
+  }
+}

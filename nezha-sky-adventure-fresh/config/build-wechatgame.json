@@ -1,0 +1,21 @@
+{
+  "name": "nezha-sky-adventure",
+  "platform": "wechatgame",
+  "buildPath": "project://build",
+  "outputName": "wechatgame",
+  "startScene": "8882cb6b-6130-4fc8-8219-9eb4a5487efc",
+  "scenes": [
+    {
+      "url": "db://assets/scenes/game.scene",
+      "uuid": "8882cb6b-6130-4fc8-8219-9eb4a5487efc"
+    }
+  ],
+  "debug": true,
+  "md5Cache": false,
+  "packages": {
+    "wechatgame": {
+      "orientation": "portrait",
+      "appid": "touristappid"
+    }
+  }
+}

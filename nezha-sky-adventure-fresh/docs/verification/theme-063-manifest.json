@@ -1,0 +1,28 @@
+{
+  "version": "0.6.3",
+  "buildId": "theme-cycle-fix-20261101-01",
+  "created": "2026-11-01T11:23:38.534855+08:00",
+  "modelTests": 43,
+  "normalUIRuns": 12,
+  "themeCounts": {
+    "sky": 6,
+    "dragon": 6
+  },
+  "policy": "Each pair contains sky and dragon once; pair order random; bag is session-local.",
+  "wechatTool": "pending",
+  "phone": "pending",
+  "sources": {
+    "assets\\scripts\\gameplay\\ObstacleField.ts": "58ce78540008b80325db2f1e44cb72f8e05aee4bd45798328685361cfe5b1def",
+    "package.json": "de687ec6cfc53edfc1c1bdb91c71a00e9d154ebfffc2aae5f10df216a83d2bdb"
+  },
+  "builds": {
+    "web-mobile": {
+      "path": "D:\\codex_workspace\\哪吒今天不闹海\\nezha-sky-adventure-fresh\\build\\web-mobile",
+      "uncompressedBytes": 18074254
+    },
+    "wechatgame": {
+      "path": "D:\\codex_workspace\\哪吒今天不闹海\\nezha-sky-adventure-fresh\\build\\wechatgame",
+      "uncompressedBytes": 17344673
+    }
+  }
+}

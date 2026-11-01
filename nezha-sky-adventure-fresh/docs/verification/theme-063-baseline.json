@@ -1,0 +1,439 @@
+{
+  "baseline": true,
+  "version": "0.6.2",
+  "runs": [
+    {
+      "theme": "dragon",
+      "background": "0e7500c5-0865-4cc2-a030-d4fc26183c89",
+      "expected": "0e7500c5-0865-4cc2-a030-d4fc26183c89",
+      "banks": [
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d"
+      ],
+      "foreground": "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+      "label": "海底龙宫 · 奇遇",
+      "state": "ready",
+      "panel": false,
+      "score": 0,
+      "gates": [
+        {
+          "lower": "mountain",
+          "upper": "seaMonster"
+        },
+        {
+          "lower": "pillar",
+          "upper": "seaMonster"
+        },
+        {
+          "lower": "mountain",
+          "upper": "seaMonster"
+        },
+        {
+          "lower": "waterball",
+          "upper": "seaMonster"
+        }
+      ]
+    },
+    {
+      "theme": "dragon",
+      "background": "0e7500c5-0865-4cc2-a030-d4fc26183c89",
+      "expected": "0e7500c5-0865-4cc2-a030-d4fc26183c89",
+      "banks": [
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d"
+      ],
+      "foreground": "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+      "label": "海底龙宫 · 奇遇",
+      "state": "ready",
+      "panel": false,
+      "score": 0,
+      "gates": [
+        {
+          "lower": "pillar",
+          "upper": "seaMonster"
+        },
+        {
+          "lower": "waterball",
+          "upper": "seaMonster"
+        },
+        {
+          "lower": "mountain",
+          "upper": "seaMonster"
+        },
+        {
+          "lower": "pillar",
+          "upper": "seaMonster"
+        }
+      ]
+    },
+    {
+      "theme": "sky",
+      "background": "2e870ba2-01c1-4a45-afa9-d4b796f2be97",
+      "expected": "2e870ba2-01c1-4a45-afa9-d4b796f2be97",
+      "banks": [
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce"
+      ],
+      "foreground": "37cc8685-783c-4d60-920d-5a869b06d8ce",
+      "label": "天宫 · 奇遇",
+      "state": "ready",
+      "panel": false,
+      "score": 0,
+      "gates": [
+        {
+          "lower": "fireball",
+          "upper": "lightning"
+        },
+        {
+          "lower": "pillar",
+          "upper": "cloud"
+        },
+        {
+          "lower": "mountain",
+          "upper": "windwheel"
+        },
+        {
+          "lower": "mountain",
+          "upper": "cloud"
+        }
+      ]
+    },
+    {
+      "theme": "sky",
+      "background": "2e870ba2-01c1-4a45-afa9-d4b796f2be97",
+      "expected": "2e870ba2-01c1-4a45-afa9-d4b796f2be97",
+      "banks": [
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce"
+      ],
+      "foreground": "37cc8685-783c-4d60-920d-5a869b06d8ce",
+      "label": "天宫 · 奇遇",
+      "state": "ready",
+      "panel": false,
+      "score": 0,
+      "gates": [
+        {
+          "lower": "mountain",
+          "upper": "lightning"
+        },
+        {
+          "lower": "mountain",
+          "upper": "windwheel"
+        },
+        {
+          "lower": "mountain",
+          "upper": "windwheel"
+        },
+        {
+          "lower": "fireball",
+          "upper": "windwheel"
+        }
+      ]
+    },
+    {
+      "theme": "dragon",
+      "background": "0e7500c5-0865-4cc2-a030-d4fc26183c89",
+      "expected": "0e7500c5-0865-4cc2-a030-d4fc26183c89",
+      "banks": [
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d"
+      ],
+      "foreground": "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+      "label": "海底龙宫 · 奇遇",
+      "state": "ready",
+      "panel": false,
+      "score": 0,
+      "gates": [
+        {
+          "lower": "waterball",
+          "upper": "seaMonster"
+        },
+        {
+          "lower": "pillar",
+          "upper": "seaMonster"
+        },
+        {
+          "lower": "waterball",
+          "upper": "seaMonster"
+        },
+        {
+          "lower": "pillar",
+          "upper": "seaMonster"
+        }
+      ]
+    },
+    {
+      "theme": "sky",
+      "background": "2e870ba2-01c1-4a45-afa9-d4b796f2be97",
+      "expected": "2e870ba2-01c1-4a45-afa9-d4b796f2be97",
+      "banks": [
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce"
+      ],
+      "foreground": "37cc8685-783c-4d60-920d-5a869b06d8ce",
+      "label": "天宫 · 奇遇",
+      "state": "ready",
+      "panel": false,
+      "score": 0,
+      "gates": [
+        {
+          "lower": "pillar",
+          "upper": "windwheel"
+        },
+        {
+          "lower": "pillar",
+          "upper": "lightning"
+        },
+        {
+          "lower": "fireball",
+          "upper": "cloud"
+        },
+        {
+          "lower": "fireball",
+          "upper": "cloud"
+        }
+      ]
+    },
+    {
+      "theme": "sky",
+      "background": "2e870ba2-01c1-4a45-afa9-d4b796f2be97",
+      "expected": "2e870ba2-01c1-4a45-afa9-d4b796f2be97",
+      "banks": [
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce"
+      ],
+      "foreground": "37cc8685-783c-4d60-920d-5a869b06d8ce",
+      "label": "天宫 · 奇遇",
+      "state": "ready",
+      "panel": false,
+      "score": 0,
+      "gates": [
+        {
+          "lower": "fireball",
+          "upper": "cloud"
+        },
+        {
+          "lower": "mountain",
+          "upper": "lightning"
+        },
+        {
+          "lower": "pillar",
+          "upper": "lightning"
+        },
+        {
+          "lower": "mountain",
+          "upper": "cloud"
+        }
+      ]
+    },
+    {
+      "theme": "sky",
+      "background": "2e870ba2-01c1-4a45-afa9-d4b796f2be97",
+      "expected": "2e870ba2-01c1-4a45-afa9-d4b796f2be97",
+      "banks": [
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce"
+      ],
+      "foreground": "37cc8685-783c-4d60-920d-5a869b06d8ce",
+      "label": "天宫 · 奇遇",
+      "state": "ready",
+      "panel": false,
+      "score": 0,
+      "gates": [
+        {
+          "lower": "mountain",
+          "upper": "windwheel"
+        },
+        {
+          "lower": "pillar",
+          "upper": "lightning"
+        },
+        {
+          "lower": "mountain",
+          "upper": "lightning"
+        },
+        {
+          "lower": "fireball",
+          "upper": "windwheel"
+        }
+      ]
+    },
+    {
+      "theme": "sky",
+      "background": "2e870ba2-01c1-4a45-afa9-d4b796f2be97",
+      "expected": "2e870ba2-01c1-4a45-afa9-d4b796f2be97",
+      "banks": [
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce"
+      ],
+      "foreground": "37cc8685-783c-4d60-920d-5a869b06d8ce",
+      "label": "天宫 · 奇遇",
+      "state": "ready",
+      "panel": false,
+      "score": 0,
+      "gates": [
+        {
+          "lower": "pillar",
+          "upper": "cloud"
+        },
+        {
+          "lower": "mountain",
+          "upper": "lightning"
+        },
+        {
+          "lower": "fireball",
+          "upper": "cloud"
+        },
+        {
+          "lower": "mountain",
+          "upper": "cloud"
+        }
+      ]
+    },
+    {
+      "theme": "sky",
+      "background": "2e870ba2-01c1-4a45-afa9-d4b796f2be97",
+      "expected": "2e870ba2-01c1-4a45-afa9-d4b796f2be97",
+      "banks": [
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce"
+      ],
+      "foreground": "37cc8685-783c-4d60-920d-5a869b06d8ce",
+      "label": "天宫 · 奇遇",
+      "state": "ready",
+      "panel": false,
+      "score": 0,
+      "gates": [
+        {
+          "lower": "fireball",
+          "upper": "lightning"
+        },
+        {
+          "lower": "mountain",
+          "upper": "windwheel"
+        },
+        {
+          "lower": "pillar",
+          "upper": "cloud"
+        },
+        {
+          "lower": "pillar",
+          "upper": "windwheel"
+        }
+      ]
+    },
+    {
+      "theme": "dragon",
+      "background": "0e7500c5-0865-4cc2-a030-d4fc26183c89",
+      "expected": "0e7500c5-0865-4cc2-a030-d4fc26183c89",
+      "banks": [
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+        "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d"
+      ],
+      "foreground": "a6ace95d-21aa-4a1f-9ee9-0a66c5a88d3d",
+      "label": "海底龙宫 · 奇遇",
+      "state": "ready",
+      "panel": false,
+      "score": 0,
+      "gates": [
+        {
+          "lower": "waterball",
+          "upper": "seaMonster"
+        },
+        {
+          "lower": "waterball",
+          "upper": "seaMonster"
+        },
+        {
+          "lower": "mountain",
+          "upper": "seaMonster"
+        },
+        {
+          "lower": "pillar",
+          "upper": "seaMonster"
+        }
+      ]
+    },
+    {
+      "theme": "sky",
+      "background": "2e870ba2-01c1-4a45-afa9-d4b796f2be97",
+      "expected": "2e870ba2-01c1-4a45-afa9-d4b796f2be97",
+      "banks": [
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce",
+        "37cc8685-783c-4d60-920d-5a869b06d8ce"
+      ],
+      "foreground": "37cc8685-783c-4d60-920d-5a869b06d8ce",
+      "label": "天宫 · 奇遇",
+      "state": "ready",
+      "panel": false,
+      "score": 0,
+      "gates": [
+        {
+          "lower": "mountain",
+          "upper": "cloud"
+        },
+        {
+          "lower": "pillar",
+          "upper": "lightning"
+        },
+        {
+          "lower": "fireball",
+          "upper": "cloud"
+        },
+        {
+          "lower": "pillar",
+          "upper": "lightning"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
